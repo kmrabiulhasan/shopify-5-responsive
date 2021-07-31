@@ -1,0 +1,143 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.container{width: 500px;}
+.logo {flex-basis: 25%;
+        max-width: 25%;
+        display: block;
+        padding-top: 15px;}
+
+nav{flex-basis: 100%;
+    max-width: 100%;   
+    display:block;}
+
+nav ul{justify-content: center;}
+
+nav ul li a{padding: 18px 20px;}
+
+.banner-content h1 {font-size: 40px;}
+.banner-content p {font-size: 16px;
+                    max-width: 90%;}
+.feature-section {padding: 35px 0;} 
+
+.feature-content h2 {font-size: 45px;
+                      text-align: center;}                                  
+.feature-content p {font-size: 18px;
+                    padding: 2px 0;
+                    width: 75%;
+                    margin: 0 auto;} 
+.col-3 {max-width: 100%;
+        flex-basis: 100%;
+        padding: 0;
+        padding-bottom: 15px;
+        margin-bottom: 20px;}
+
+.post{margin: 0 30px;}      
+.post h2 {font-size: 30px;
+        text-align: center;}
+.post p {
+    font-size: 18px;
+    text-align: center;}
+
+ .text-align {text-align: center;}   
+footer {padding: 25px 0;} 
+
+nav ul li:last-child a {
+    margin: 17px 0;}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+.container{width: 600px;}
+.logo {flex-basis: 25%;
+        max-width: 25%;
+        display: block;
+        padding-top: 15px;}
+
+nav{flex-basis: 100%;
+    max-width: 100%;   
+    display:block;}
+
+nav ul{justify-content: center;}
+
+nav ul li a{padding:18px 20px;}
+nav ul li:last-child a{margin: 18px 0;}
+     
+
+.banner-content h1 {font-size: 40px;}
+.banner-content p {font-size: 16px;
+                    max-width: 90%;}
+.feature-section {padding: 35px 0;} 
+
+ .feature-content h2 {font-size: 45px;
+                      text-align: center;}                                  
+.feature-content p {font-size: 18px;
+                    padding: 2px 0;
+                    width: 75%;
+                    margin: 0 auto;} 
+.col-3 {max-width: 100%;
+        flex-basis: 100%;
+        padding: 0;
+        padding-bottom: 15px;
+        margin-bottom: 20px;}
+
+.post{margin: 0 30px;}      
+.post h2 {font-size: 30px;
+        text-align: center;}
+.post p {
+    font-size: 18px;
+    text-align: center;}
+
+ .text-align {text-align: center;}   
+footer {padding: 25px 0;}                    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.container{width: 700px;}
+.banner-content h1 {font-size: 45px;}
+.banner-content p {font-size: 18px;}
+.feature-content h2 {font-size: 35px;}
+.feature-content p {font-size: 18px;
+					padding: 2px 0;}
+.feature-section {padding: 30px 0;}
+.post p {font-size: 14px;}
+.post {padding: 30px 10px;}
+.post h2 {font-size: 17px;}
+.col-3 {padding: 10px;}
+.media{max-width: 45.33%;
+     flex-basis: 45.33%;}
+
+.post img {height: 150px;}
+footer {padding: 20px 0;}
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.container{width: 900px;}
+.banner-content h1 {font-size: 50px;}
+.banner-content p {font-size: 18px;
+    				max-width: 700px;}
+.feature-content h2 {font-size: 45px;}
+.feature-content p {font-size: 18px;} 
+.media{max-width: 45.33%;
+     flex-basis: 45.33%;}
+
+.post {
+    padding: 50px 10px;}
+
+.post h2 {font-size: 20px;}
+.post p {font-size: 16px;}
+footer {padding: 25px 0;}
+}     
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+	
+}
+
+
+
+
